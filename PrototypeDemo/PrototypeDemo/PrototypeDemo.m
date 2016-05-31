@@ -19,7 +19,9 @@
 }
 
 - (instancetype)copyWithZone:(NSZone *)zone{
-    return [[[self class] allocWithZone:zone] init];
+    PrototypeDemo *copy = [[[self class] allocWithZone:zone] init];
+    copy.str = [self.str copy];
+    return copy;
 }
 
 @end

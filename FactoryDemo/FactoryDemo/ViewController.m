@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "CanvasView.h"
+#import "PaperCanvasView.h"
+#import "CanvasViewGenerator.h"
+#import "PaperCavasViewGenerator.h"
 
 @interface ViewController ()
 
@@ -17,6 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *backgroundName;
+    if ([backgroundName isEqualToString:@"paper"]) {
+        PaperCavasViewGenerator *generator = [[PaperCavasViewGenerator alloc] init];
+        CanvasView *canvasView = [generator canvasViewWithFrame:CGRectMake(0, 0, 320, 528)];
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning {
