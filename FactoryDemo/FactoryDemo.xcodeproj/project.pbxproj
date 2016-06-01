@@ -15,6 +15,30 @@
 		1B72738C1CFD64190059F30A /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72738B1CFD64190059F30A /* ClothCanvasView.m */; };
 		1B7273901CFD6AB90059F30A /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72738E1CFD6AB90059F30A /* CanvasViewController.m */; };
 		1B7273911CFD6AB90059F30A /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B72738F1CFD6AB90059F30A /* CanvasViewController.xib */; };
+		1B8696E41CFE852A004D8E65 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696E31CFE852A004D8E65 /* Car.m */; };
+		1B8696E71CFE85B1004D8E65 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696E61CFE85B1004D8E65 /* Benz.m */; };
+		1B8696EA1CFE85E5004D8E65 /* Bmw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696E91CFE85E5004D8E65 /* Bmw.m */; };
+		1B8696EF1CFE8644004D8E65 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696EE1CFE8644004D8E65 /* Driver.m */; };
+		1B8696FE1CFE8C12004D8E65 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696F91CFE8C12004D8E65 /* Benz.m */; };
+		1B8696FF1CFE8C12004D8E65 /* Bmw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696FB1CFE8C12004D8E65 /* Bmw.m */; };
+		1B8697001CFE8C12004D8E65 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8696FD1CFE8C12004D8E65 /* Car.m */; };
+		1B8697031CFE8C43004D8E65 /* DriverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697021CFE8C43004D8E65 /* DriverFactory.m */; };
+		1B8697061CFE8D07004D8E65 /* BenzDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697051CFE8D07004D8E65 /* BenzDriver.m */; };
+		1B8697091CFE8D76004D8E65 /* BmwDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697081CFE8D76004D8E65 /* BmwDriver.m */; };
+		1B86970C1CFE8DCE004D8E65 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86970B1CFE8DCE004D8E65 /* Boss.m */; };
+		1B8697151CFE8F5E004D8E65 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697101CFE8F5E004D8E65 /* Benz.m */; };
+		1B8697161CFE8F5E004D8E65 /* Bmw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697121CFE8F5E004D8E65 /* Bmw.m */; };
+		1B8697171CFE8F5E004D8E65 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697141CFE8F5E004D8E65 /* Car.m */; };
+		1B86971F1CFE90E5004D8E65 /* Boss1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86971E1CFE90E5004D8E65 /* Boss1.m */; };
+		1B8697251CFE957B004D8E65 /* BenzCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697241CFE957B004D8E65 /* BenzCar.m */; };
+		1B8697281CFE95AA004D8E65 /* BmwCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697271CFE95AA004D8E65 /* BmwCar.m */; };
+		1B86972B1CFE95D2004D8E65 /* BenzSportCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86972A1CFE95D2004D8E65 /* BenzSportCar.m */; };
+		1B86972E1CFE95E3004D8E65 /* BenzBusinessCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86972D1CFE95E3004D8E65 /* BenzBusinessCar.m */; };
+		1B8697311CFE9607004D8E65 /* BmwSportCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697301CFE9607004D8E65 /* BmwSportCar.m */; };
+		1B8697341CFE9628004D8E65 /* BmwBusinessCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697331CFE9628004D8E65 /* BmwBusinessCar.m */; };
+		1B8697371CFEB74F004D8E65 /* AbstractDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697361CFEB74F004D8E65 /* AbstractDriver.m */; };
+		1B86973A1CFEBBF4004D8E65 /* SportDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8697391CFEBBF4004D8E65 /* SportDriver.m */; };
+		1B86973D1CFEBBFF004D8E65 /* BusinessDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B86973C1CFEBBFF004D8E65 /* BusinessDriver.m */; };
 		1BD39C2C1CE333F9004B5587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD39C2B1CE333F9004B5587 /* main.m */; };
 		1BD39C2F1CE333F9004B5587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD39C2E1CE333F9004B5587 /* AppDelegate.m */; };
 		1BD39C321CE333F9004B5587 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD39C311CE333F9004B5587 /* ViewController.m */; };
@@ -58,6 +82,54 @@
 		1B72738D1CFD6AB90059F30A /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CanvasViewController.h; path = ../CanvasViewController.h; sourceTree = "<group>"; };
 		1B72738E1CFD6AB90059F30A /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CanvasViewController.m; path = ../CanvasViewController.m; sourceTree = "<group>"; };
 		1B72738F1CFD6AB90059F30A /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CanvasViewController.xib; path = ../CanvasViewController.xib; sourceTree = "<group>"; };
+		1B8696E21CFE852A004D8E65 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1B8696E31CFE852A004D8E65 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1B8696E51CFE85B1004D8E65 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Benz.h; sourceTree = "<group>"; };
+		1B8696E61CFE85B1004D8E65 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
+		1B8696E81CFE85E5004D8E65 /* Bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bmw.h; sourceTree = "<group>"; };
+		1B8696E91CFE85E5004D8E65 /* Bmw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bmw.m; sourceTree = "<group>"; };
+		1B8696ED1CFE8644004D8E65 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		1B8696EE1CFE8644004D8E65 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		1B8696F81CFE8C12004D8E65 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Benz.h; sourceTree = "<group>"; };
+		1B8696F91CFE8C12004D8E65 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
+		1B8696FA1CFE8C12004D8E65 /* Bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bmw.h; sourceTree = "<group>"; };
+		1B8696FB1CFE8C12004D8E65 /* Bmw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bmw.m; sourceTree = "<group>"; };
+		1B8696FC1CFE8C12004D8E65 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1B8696FD1CFE8C12004D8E65 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1B8697011CFE8C43004D8E65 /* DriverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverFactory.h; sourceTree = "<group>"; };
+		1B8697021CFE8C43004D8E65 /* DriverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverFactory.m; sourceTree = "<group>"; };
+		1B8697041CFE8D07004D8E65 /* BenzDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzDriver.h; sourceTree = "<group>"; };
+		1B8697051CFE8D07004D8E65 /* BenzDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzDriver.m; sourceTree = "<group>"; };
+		1B8697071CFE8D76004D8E65 /* BmwDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmwDriver.h; sourceTree = "<group>"; };
+		1B8697081CFE8D76004D8E65 /* BmwDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmwDriver.m; sourceTree = "<group>"; };
+		1B86970A1CFE8DCE004D8E65 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		1B86970B1CFE8DCE004D8E65 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		1B86970F1CFE8F5E004D8E65 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Benz.h; sourceTree = "<group>"; };
+		1B8697101CFE8F5E004D8E65 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
+		1B8697111CFE8F5E004D8E65 /* Bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bmw.h; sourceTree = "<group>"; };
+		1B8697121CFE8F5E004D8E65 /* Bmw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bmw.m; sourceTree = "<group>"; };
+		1B8697131CFE8F5E004D8E65 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1B8697141CFE8F5E004D8E65 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		1B86971D1CFE90E5004D8E65 /* Boss1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss1.h; sourceTree = "<group>"; };
+		1B86971E1CFE90E5004D8E65 /* Boss1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss1.m; sourceTree = "<group>"; };
+		1B8697231CFE957B004D8E65 /* BenzCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzCar.h; sourceTree = "<group>"; };
+		1B8697241CFE957B004D8E65 /* BenzCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzCar.m; sourceTree = "<group>"; };
+		1B8697261CFE95AA004D8E65 /* BmwCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmwCar.h; sourceTree = "<group>"; };
+		1B8697271CFE95AA004D8E65 /* BmwCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmwCar.m; sourceTree = "<group>"; };
+		1B8697291CFE95D2004D8E65 /* BenzSportCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzSportCar.h; sourceTree = "<group>"; };
+		1B86972A1CFE95D2004D8E65 /* BenzSportCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzSportCar.m; sourceTree = "<group>"; };
+		1B86972C1CFE95E3004D8E65 /* BenzBusinessCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzBusinessCar.h; sourceTree = "<group>"; };
+		1B86972D1CFE95E3004D8E65 /* BenzBusinessCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzBusinessCar.m; sourceTree = "<group>"; };
+		1B86972F1CFE9607004D8E65 /* BmwSportCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmwSportCar.h; sourceTree = "<group>"; };
+		1B8697301CFE9607004D8E65 /* BmwSportCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmwSportCar.m; sourceTree = "<group>"; };
+		1B8697321CFE9628004D8E65 /* BmwBusinessCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmwBusinessCar.h; sourceTree = "<group>"; };
+		1B8697331CFE9628004D8E65 /* BmwBusinessCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmwBusinessCar.m; sourceTree = "<group>"; };
+		1B8697351CFEB74F004D8E65 /* AbstractDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDriver.h; sourceTree = "<group>"; };
+		1B8697361CFEB74F004D8E65 /* AbstractDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDriver.m; sourceTree = "<group>"; };
+		1B8697381CFEBBF4004D8E65 /* SportDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportDriver.h; sourceTree = "<group>"; };
+		1B8697391CFEBBF4004D8E65 /* SportDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportDriver.m; sourceTree = "<group>"; };
+		1B86973B1CFEBBFF004D8E65 /* BusinessDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessDriver.h; sourceTree = "<group>"; };
+		1B86973C1CFEBBFF004D8E65 /* BusinessDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessDriver.m; sourceTree = "<group>"; };
 		1BD39C271CE333F9004B5587 /* FactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD39C2B1CE333F9004B5587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BD39C2D1CE333F9004B5587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +186,145 @@
 			name = Product;
 			sourceTree = "<group>";
 		};
+		1B8696E11CFE8501004D8E65 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8696EC1CFE85FD004D8E65 /* Factory */,
+				1B8696EB1CFE85F2004D8E65 /* Product */,
+			);
+			name = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		1B8696EB1CFE85F2004D8E65 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1B8696E21CFE852A004D8E65 /* Car.h */,
+				1B8696E31CFE852A004D8E65 /* Car.m */,
+				1B8696E51CFE85B1004D8E65 /* Benz.h */,
+				1B8696E61CFE85B1004D8E65 /* Benz.m */,
+				1B8696E81CFE85E5004D8E65 /* Bmw.h */,
+				1B8696E91CFE85E5004D8E65 /* Bmw.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		1B8696EC1CFE85FD004D8E65 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8696ED1CFE8644004D8E65 /* Driver.h */,
+				1B8696EE1CFE8644004D8E65 /* Driver.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		1B8696F41CFE8B0B004D8E65 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8696F61CFE8B22004D8E65 /* Factory */,
+				1B8696F51CFE8B19004D8E65 /* Product */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		1B8696F51CFE8B19004D8E65 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1B8696F81CFE8C12004D8E65 /* Benz.h */,
+				1B8696F91CFE8C12004D8E65 /* Benz.m */,
+				1B8696FA1CFE8C12004D8E65 /* Bmw.h */,
+				1B8696FB1CFE8C12004D8E65 /* Bmw.m */,
+				1B8696FC1CFE8C12004D8E65 /* Car.h */,
+				1B8696FD1CFE8C12004D8E65 /* Car.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		1B8696F61CFE8B22004D8E65 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8697011CFE8C43004D8E65 /* DriverFactory.h */,
+				1B8697021CFE8C43004D8E65 /* DriverFactory.m */,
+				1B8697041CFE8D07004D8E65 /* BenzDriver.h */,
+				1B8697051CFE8D07004D8E65 /* BenzDriver.m */,
+				1B8697071CFE8D76004D8E65 /* BmwDriver.h */,
+				1B8697081CFE8D76004D8E65 /* BmwDriver.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		1B8696F71CFE8B29004D8E65 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1B86970A1CFE8DCE004D8E65 /* Boss.h */,
+				1B86970B1CFE8DCE004D8E65 /* Boss.m */,
+				1B86971D1CFE90E5004D8E65 /* Boss1.h */,
+				1B86971E1CFE90E5004D8E65 /* Boss1.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		1B86970D1CFE8F2D004D8E65 /* NoFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1B86970E1CFE8F4E004D8E65 /* Product */,
+			);
+			name = NoFactory;
+			sourceTree = "<group>";
+		};
+		1B86970E1CFE8F4E004D8E65 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1B86970F1CFE8F5E004D8E65 /* Benz.h */,
+				1B8697101CFE8F5E004D8E65 /* Benz.m */,
+				1B8697111CFE8F5E004D8E65 /* Bmw.h */,
+				1B8697121CFE8F5E004D8E65 /* Bmw.m */,
+				1B8697131CFE8F5E004D8E65 /* Car.h */,
+				1B8697141CFE8F5E004D8E65 /* Car.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		1B8697201CFE951D004D8E65 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8697221CFE9546004D8E65 /* Factory */,
+				1B8697211CFE9540004D8E65 /* Product */,
+			);
+			name = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		1B8697211CFE9540004D8E65 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1B8697231CFE957B004D8E65 /* BenzCar.h */,
+				1B8697241CFE957B004D8E65 /* BenzCar.m */,
+				1B8697291CFE95D2004D8E65 /* BenzSportCar.h */,
+				1B86972A1CFE95D2004D8E65 /* BenzSportCar.m */,
+				1B86972C1CFE95E3004D8E65 /* BenzBusinessCar.h */,
+				1B86972D1CFE95E3004D8E65 /* BenzBusinessCar.m */,
+				1B8697261CFE95AA004D8E65 /* BmwCar.h */,
+				1B8697271CFE95AA004D8E65 /* BmwCar.m */,
+				1B86972F1CFE9607004D8E65 /* BmwSportCar.h */,
+				1B8697301CFE9607004D8E65 /* BmwSportCar.m */,
+				1B8697321CFE9628004D8E65 /* BmwBusinessCar.h */,
+				1B8697331CFE9628004D8E65 /* BmwBusinessCar.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		1B8697221CFE9546004D8E65 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1B8697351CFEB74F004D8E65 /* AbstractDriver.h */,
+				1B8697361CFEB74F004D8E65 /* AbstractDriver.m */,
+				1B8697381CFEBBF4004D8E65 /* SportDriver.h */,
+				1B8697391CFEBBF4004D8E65 /* SportDriver.m */,
+				1B86973B1CFEBBFF004D8E65 /* BusinessDriver.h */,
+				1B86973C1CFEBBFF004D8E65 /* BusinessDriver.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		1BD39C1E1CE333F9004B5587 = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +348,12 @@
 		1BD39C291CE333F9004B5587 /* FactoryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1BD39C5D1CE335BC004B5587 /* Factory */,
+				1B8697201CFE951D004D8E65 /* AbstractFactory */,
+				1B8696F71CFE8B29004D8E65 /* Client */,
+				1B86970D1CFE8F2D004D8E65 /* NoFactory */,
+				1B8696F41CFE8B0B004D8E65 /* Factory */,
+				1B8696E11CFE8501004D8E65 /* SimpleFactory */,
+				1BD39C5D1CE335BC004B5587 /* Factory1 */,
 				1BD39C2D1CE333F9004B5587 /* AppDelegate.h */,
 				1BD39C2E1CE333F9004B5587 /* AppDelegate.m */,
 				1B72738D1CFD6AB90059F30A /* CanvasViewController.h */,
@@ -180,13 +396,13 @@
 			path = FactoryDemoUITests;
 			sourceTree = "<group>";
 		};
-		1BD39C5D1CE335BC004B5587 /* Factory */ = {
+		1BD39C5D1CE335BC004B5587 /* Factory1 */ = {
 			isa = PBXGroup;
 			children = (
 				1B72737A1CFD413D0059F30A /* Product */,
 				1BD39C5E1CE335C2004B5587 /* Factory */,
 			);
-			name = Factory;
+			name = Factory1;
 			sourceTree = "<group>";
 		};
 		1BD39C5E1CE335C2004B5587 /* Factory */ = {
@@ -333,16 +549,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8697001CFE8C12004D8E65 /* Car.m in Sources */,
+				1B8697151CFE8F5E004D8E65 /* Benz.m in Sources */,
+				1B8696FE1CFE8C12004D8E65 /* Benz.m in Sources */,
+				1B8697091CFE8D76004D8E65 /* BmwDriver.m in Sources */,
+				1B8696E41CFE852A004D8E65 /* Car.m in Sources */,
+				1B8697161CFE8F5E004D8E65 /* Bmw.m in Sources */,
 				1BD39C321CE333F9004B5587 /* ViewController.m in Sources */,
+				1B86971F1CFE90E5004D8E65 /* Boss1.m in Sources */,
 				1B7273801CFD63BE0059F30A /* PaperCavasViewGenerator.m in Sources */,
+				1B8697341CFE9628004D8E65 /* BmwBusinessCar.m in Sources */,
+				1B8697281CFE95AA004D8E65 /* BmwCar.m in Sources */,
+				1B8697371CFEB74F004D8E65 /* AbstractDriver.m in Sources */,
+				1B8696EF1CFE8644004D8E65 /* Driver.m in Sources */,
 				1B7273901CFD6AB90059F30A /* CanvasViewController.m in Sources */,
+				1B8696E71CFE85B1004D8E65 /* Benz.m in Sources */,
 				1BD39C2F1CE333F9004B5587 /* AppDelegate.m in Sources */,
+				1B8697251CFE957B004D8E65 /* BenzCar.m in Sources */,
+				1B8697061CFE8D07004D8E65 /* BenzDriver.m in Sources */,
+				1B86973A1CFEBBF4004D8E65 /* SportDriver.m in Sources */,
+				1B8697311CFE9607004D8E65 /* BmwSportCar.m in Sources */,
+				1B8697031CFE8C43004D8E65 /* DriverFactory.m in Sources */,
+				1B8697171CFE8F5E004D8E65 /* Car.m in Sources */,
+				1B86972E1CFE95E3004D8E65 /* BenzBusinessCar.m in Sources */,
+				1B86972B1CFE95D2004D8E65 /* BenzSportCar.m in Sources */,
+				1B8696EA1CFE85E5004D8E65 /* Bmw.m in Sources */,
 				1B7273891CFD640B0059F30A /* PaperCanvasView.m in Sources */,
 				1B7273831CFD63D40059F30A /* ClothCavasGenerator.m in Sources */,
+				1B86970C1CFE8DCE004D8E65 /* Boss.m in Sources */,
 				1B7273861CFD63F10059F30A /* CanvasView.m in Sources */,
 				1B72737D1CFD63980059F30A /* CanvasViewGenerator.m in Sources */,
 				1B72738C1CFD64190059F30A /* ClothCanvasView.m in Sources */,
 				1BD39C2C1CE333F9004B5587 /* main.m in Sources */,
+				1B8696FF1CFE8C12004D8E65 /* Bmw.m in Sources */,
+				1B86973D1CFEBBFF004D8E65 /* BusinessDriver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
