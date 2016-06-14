@@ -1,18 +1,16 @@
 //
-//  CharacterBuilder.h
+//  StandardCharacterBuilder.h
 //  BuilderDemo
 //
-//  Created by bmob-LT on 16/6/8.
+//  Created by bmob-LT on 16/6/14.
 //  Copyright © 2016年 bmob-LT. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Character.h"
+#import "CharacterBuilder.h"
 
-@interface CharacterBuilder : NSObject
-@property (strong,nonatomic,readonly) Character *character;
+@interface StandardCharacterBuilder : CharacterBuilder
 
-- (CharacterBuilder *)buildNewCharacter;
 - (CharacterBuilder *)buildStrength:(float)value;
 - (CharacterBuilder *)buildStamina:(float)value;
 - (CharacterBuilder *)buildIntelligence:(float)value;

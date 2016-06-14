@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1749ED1D0FFEC5009109CA /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1749EC1D0FFEC5009109CA /* StandardCharacterBuilder.m */; };
+		1B1749F01D1000CA009109CA /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1749EF1D1000CA009109CA /* ChasingGame.m */; };
 		1BB2A2591D07F9C40036FA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2A2581D07F9C40036FA68 /* main.m */; };
 		1BB2A25C1D07F9C40036FA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2A25B1D07F9C40036FA68 /* AppDelegate.m */; };
 		1BB2A25F1D07F9C40036FA68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2A25E1D07F9C40036FA68 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1749EB1D0FFEC5009109CA /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		1B1749EC1D0FFEC5009109CA /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		1B1749EE1D1000CA009109CA /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		1B1749EF1D1000CA009109CA /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
 		1BB2A2541D07F9C40036FA68 /* BuilderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB2A2581D07F9C40036FA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BB2A25A1D07F9C40036FA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +160,10 @@
 				1BB2A28B1D07FADB0036FA68 /* Character.m */,
 				1BB2A28D1D07FC010036FA68 /* CharacterBuilder.h */,
 				1BB2A28E1D07FC010036FA68 /* CharacterBuilder.m */,
+				1B1749EB1D0FFEC5009109CA /* StandardCharacterBuilder.h */,
+				1B1749EC1D0FFEC5009109CA /* StandardCharacterBuilder.m */,
+				1B1749EE1D1000CA009109CA /* ChasingGame.h */,
+				1B1749EF1D1000CA009109CA /* ChasingGame.m */,
 			);
 			name = Builder;
 			sourceTree = "<group>";
@@ -292,6 +302,8 @@
 				1BB2A25F1D07F9C40036FA68 /* ViewController.m in Sources */,
 				1BB2A25C1D07F9C40036FA68 /* AppDelegate.m in Sources */,
 				1BB2A2591D07F9C40036FA68 /* main.m in Sources */,
+				1B1749ED1D0FFEC5009109CA /* StandardCharacterBuilder.m in Sources */,
+				1B1749F01D1000CA009109CA /* ChasingGame.m in Sources */,
 				1BB2A28C1D07FADB0036FA68 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,7 @@
 				1BB2A2831D07F9C40036FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB2A2841D07F9C40036FA68 /* Build configuration list for PBXNativeTarget "BuilderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				1BB2A2861D07F9C40036FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB2A2871D07F9C40036FA68 /* Build configuration list for PBXNativeTarget "BuilderDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				1BB2A2891D07F9C40036FA68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
