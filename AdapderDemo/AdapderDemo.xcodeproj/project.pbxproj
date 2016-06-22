@@ -16,6 +16,8 @@
 		AB568CF41D1993FA00D0E537 /* BusinessCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AB568CF31D1993FA00D0E537 /* BusinessCard.m */; };
 		AB568CF61D19944A00D0E537 /* BusinessCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB568CF51D19944A00D0E537 /* BusinessCard.xib */; };
 		AB568CFB1D19993E00D0E537 /* BusinessCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB568CFA1D19993E00D0E537 /* BusinessCardModel.m */; };
+		ABE487611D1ABAAA00325980 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE487601D1ABAAA00325980 /* CardAdapter.m */; };
+		ABE487641D1ABB7600325980 /* ModelCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE487631D1ABB7600325980 /* ModelCardAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,11 @@
 		AB568CF51D19944A00D0E537 /* BusinessCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessCard.xib; sourceTree = "<group>"; };
 		AB568CF91D19993E00D0E537 /* BusinessCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardModel.h; sourceTree = "<group>"; };
 		AB568CFA1D19993E00D0E537 /* BusinessCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardModel.m; sourceTree = "<group>"; };
+		ABE4875C1D1AB9B900325980 /* CardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapterProtocol.h; sourceTree = "<group>"; };
+		ABE4875F1D1ABAAA00325980 /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapter.h; sourceTree = "<group>"; };
+		ABE487601D1ABAAA00325980 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
+		ABE487621D1ABB7600325980 /* ModelCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCardAdapter.h; sourceTree = "<group>"; };
+		ABE487631D1ABB7600325980 /* ModelCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCardAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +83,6 @@
 				AB568CE81D19937300D0E537 /* LaunchScreen.storyboard */,
 				AB568CEB1D19937300D0E537 /* Info.plist */,
 				AB568CDA1D19937300D0E537 /* Supporting Files */,
-				AB568CF21D1993FA00D0E537 /* BusinessCard.h */,
-				AB568CF31D1993FA00D0E537 /* BusinessCard.m */,
-				AB568CF51D19944A00D0E537 /* BusinessCard.xib */,
-				AB568CF91D19993E00D0E537 /* BusinessCardModel.h */,
-				AB568CFA1D19993E00D0E537 /* BusinessCardModel.m */,
 			);
 			path = AdapderDemo;
 			sourceTree = "<group>";
@@ -96,8 +98,34 @@
 		AB568CF11D1993CB00D0E537 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				ABE487661D1AC03100325980 /* Client */,
+				ABE487651D1AC01C00325980 /* Adapter */,
 			);
 			name = Adapter;
+			sourceTree = "<group>";
+		};
+		ABE487651D1AC01C00325980 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				AB568CF21D1993FA00D0E537 /* BusinessCard.h */,
+				AB568CF31D1993FA00D0E537 /* BusinessCard.m */,
+				AB568CF51D19944A00D0E537 /* BusinessCard.xib */,
+				ABE4875C1D1AB9B900325980 /* CardAdapterProtocol.h */,
+				ABE4875F1D1ABAAA00325980 /* CardAdapter.h */,
+				ABE487601D1ABAAA00325980 /* CardAdapter.m */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
+		ABE487661D1AC03100325980 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				AB568CF91D19993E00D0E537 /* BusinessCardModel.h */,
+				AB568CFA1D19993E00D0E537 /* BusinessCardModel.m */,
+				ABE487621D1ABB7600325980 /* ModelCardAdapter.h */,
+				ABE487631D1ABB7600325980 /* ModelCardAdapter.m */,
+			);
+			name = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +201,10 @@
 			files = (
 				AB568CE21D19937300D0E537 /* ViewController.m in Sources */,
 				AB568CDF1D19937300D0E537 /* AppDelegate.m in Sources */,
+				ABE487641D1ABB7600325980 /* ModelCardAdapter.m in Sources */,
 				AB568CDC1D19937300D0E537 /* main.m in Sources */,
 				AB568CF41D1993FA00D0E537 /* BusinessCard.m in Sources */,
+				ABE487611D1ABAAA00325980 /* CardAdapter.m in Sources */,
 				AB568CFB1D19993E00D0E537 /* BusinessCardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +354,7 @@
 				AB568CF01D19937300D0E537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

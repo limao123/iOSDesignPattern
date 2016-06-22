@@ -17,13 +17,16 @@
     // Drawing code
 }
 */
-- (instancetype)init{
-    if (self = [super init]) {
-        <#statements#>
-    }
-}
 
-- (instancetype)inttWithName:(NSString *)name phoneNumber:(NSString *)phoneNumber andLineColor:(UIColor *)color{
+
+- (instancetype)initWithName:(NSString *)name phoneNumber:(NSString *)phoneNumber andLineColor:(UIColor *)color{
+    self = [super init];
+    if (self) {
+        _name = name;
+        _phoneNumber = phoneNumber;
+        _lineColor = color;
+    }
+    return self;
     
 }
 

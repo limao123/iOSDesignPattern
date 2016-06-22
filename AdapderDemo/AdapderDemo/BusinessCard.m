@@ -19,12 +19,18 @@
 @implementation BusinessCard
 
 
-- (void)setModel:(BusinessCardModel *)model{
++ (instancetype)loadBusinessCard{
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    return [[mainBundle loadNibNamed:@"BusinessCard" owner:self options:nil] firstObject];
+    
+}
+
+- (void)setModel:(id<CardAdapterProtocol>)model{
 //    self.nameLabel.text = mode
     _model = model;
-    self.nameLabel.text = model.name;
-    self.lineView.backgroundColor = model.color;
-    self.phoneLabel.text = model.phoneNumber;
+    self.nameLabel.text = [model name];
+    self.lineView.backgroundColor = [model lineColor];
+    self.phoneLabel.text = [model phoneNumber];
 }
 
 /*

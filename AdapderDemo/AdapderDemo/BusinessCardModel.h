@@ -10,8 +10,8 @@
 
 @interface BusinessCardModel : NSObject
 @property (copy,nonatomic) NSString *name;
-@property (strong,nonatomic) UIColor *color;
+@property (strong,nonatomic) UIColor *lineColor;
 @property (copy,nonatomic) NSString *phoneNumber;
 
-- (instancetype)inttWithName:(NSString *)name phoneNumber:(NSString *)phoneNumber andLineColor:(UIColor *)color;
+- (instancetype)initWithName:(NSString *)name phoneNumber:(NSString *)phoneNumber andLineColor:(UIColor *)color;
 @end

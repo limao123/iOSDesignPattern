@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardAdapterProtocol.h"
 @class BusinessCardModel;
 
 @interface BusinessCard : UIView
-@property (strong,nonatomic) BusinessCardModel *model;
++ (instancetype)loadBusinessCard;
+@property (strong,nonatomic) id<CardAdapterProtocol> model;
 @end
