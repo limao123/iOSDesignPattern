@@ -7,6 +7,7 @@
 //
 
 #import "BusinessCard.h"
+#import "BusinessCardModel.h"
 
 @interface BusinessCard ()
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
@@ -16,6 +17,15 @@
 @end
 
 @implementation BusinessCard
+
+
+- (void)setModel:(BusinessCardModel *)model{
+//    self.nameLabel.text = mode
+    _model = model;
+    self.nameLabel.text = model.name;
+    self.lineView.backgroundColor = model.color;
+    self.phoneLabel.text = model.phoneNumber;
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

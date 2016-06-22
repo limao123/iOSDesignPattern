@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BusinessCardModel : UIView
+@interface BusinessCardModel : NSObject
 @property (copy,nonatomic) NSString *name;
 @property (strong,nonatomic) UIColor *color;
 @property (copy,nonatomic) NSString *phoneNumber;
+
+- (instancetype)inttWithName:(NSString *)name phoneNumber:(NSString *)phoneNumber andLineColor:(UIColor *)color;
 @end

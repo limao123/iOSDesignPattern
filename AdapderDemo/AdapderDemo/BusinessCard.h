@@ -10,5 +10,5 @@
 @class BusinessCardModel;
 
 @interface BusinessCard : UIView
-@property (strong,nonatomic) 
+@property (strong,nonatomic) BusinessCardModel *model;
 @end
